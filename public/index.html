@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="//sdk.twilio.com/js/video/releases/2.24.1/twilio-video.min.js"></script>
+    <title>Halloween web app</title>
+</head>
+<body>
+    <h2 class="txt-header">Say Bloody Mary 3 times and see what happens !!!</h2>
+    <div class="video-container">
+        <video id="video-input" autoplay></video>
+    </div>
+    <img id="scary-img" src="../images/scary_img.jpg" style="display: none" />
+    <script src="./js/index.js"></script>
+    <script src="./js/videoProcessors.js"></script>
+    <script src="./js/speechToText.js"></script>
+</body>
+</html>

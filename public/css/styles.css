@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: "specialFont";
+    src: url("../fonts/nosifer/Nosifer-Regular.ttf") format("woff2");
+}
+
+.txt-header {
+    color: #e66b09;
+    font-family: "specialFont";
+    text-align: center;
+}
+
+.video-container {
+    text-align: center;
+}
+
+#video-input {
+    width: 70vw;
+    height: 80vh;
+    object-fit: fill;
+}
+
+video {
+    border: gray solid 3px;
+}
