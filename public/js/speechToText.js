@@ -24,7 +24,7 @@ const speechToText = () => {
         let transcript = event.results[current][0].transcript.trim().toLowerCase();
         console.log(transcript);
 
-        if (transcript === "bloody mary") {
+        if (transcript === "うんこ") {
             if (count < 2) {
                 count += 1;
                 let glitchSound = new Audio("../sounds/glitch_sound.mp3");
